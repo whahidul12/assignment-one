@@ -18,7 +18,7 @@
 
 /* Custom Template START from here */
 .custom-btn {
-  padding: 14px 36px;
+  padding: 15px 40px;
   font-size: 15px;
   border: none;
   outline: none;
@@ -94,3 +94,36 @@
 }
 
 /* Heading Section END fron here */
+
+/* Action Section START fron here */
+.section-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 112px auto;
+  border: 1px solid red;
+}
+
+.section-action-discription h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  color: var(--primary-black);
+}
+
+.section-action-discription p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 23px 0;
+  color: var(--secondary-black);
+}
+
+.section-action img {
+  max-width: 403px;
+  border-radius: 48px;
+
+}
+
+/* Action Section END fron here */
