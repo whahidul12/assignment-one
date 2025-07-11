@@ -16,6 +16,7 @@ body {
   --primary-black: #252432;
   --secondary-black: rgba(37, 36, 50, 0.5);
   --secondary-black-light: rgba(37, 36, 50, 0.3);
+  --secondary-black-extra-light: rgba(37, 36, 50, 0.1);
   --star-yellow: #FFB805;
   --bg-white: #F5F8FF;
   --white: #FFFFFF;
@@ -302,7 +303,7 @@ body {
   align-items: center;
   justify-content: space-between;
   max-width: 1140px;
-  margin: 130px auto 70px;
+  margin: 150px auto 70px;
 }
 
 .section-newsletter h2 {
@@ -329,7 +330,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   width: 100%;
-  border: 0.1px solid var(--secondary-black-light);
+  border: 0.1px solid var(--secondary-black-extra-light);
   padding: 20px 32px;
   margin: 10px 0 19px;
   border-radius: 10px;
@@ -360,6 +361,7 @@ body {
 .footer {
   background-color: var(--white);
   text-align: center;
+  border-top: 0.1px solid var(--secondary-black-extra-light);
 }
 
 .footer-title {
