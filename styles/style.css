@@ -6,11 +6,16 @@
   list-style: none;
 }
 
+body {
+  background-color: var(--bg-white);
+}
+
 :root {
   --primary-blue: #4E47FF;
   --secondary-blue: rgba(78, 71, 255, 0.1);
   --primary-black: #252432;
   --secondary-black: rgba(37, 36, 50, 0.5);
+  --secondary-black-light: rgba(37, 36, 50, 0.3);
   --star-yellow: #FFB805;
   --bg-white: #F5F8FF;
   --white: #FFFFFF;
@@ -55,11 +60,9 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
-  border: 1px solid red;
 }
 
 .navbar {
-  border: 1px solid red;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -88,7 +91,6 @@
 
 .banner {
   text-align: center;
-  border: 1px solid red;
   max-width: 900px;
   margin: 20vh auto 0;
 }
@@ -102,7 +104,6 @@
   justify-content: space-between;
   max-width: 1140px;
   margin: 112px auto;
-  border: 1px solid red;
 }
 
 .section-action-discription h3 {
@@ -148,11 +149,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 40px 0;
-}
-
-.scroe {
-  border: 1px solid red;
+  margin: 40px 0 0;
 }
 
 .scroe h6 {
@@ -167,10 +164,96 @@
 .scroe p {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   text-align: center;
   color: var(--secondary-black);
 }
 
 /* Productive User Section END fron here */
+
+/* Review Section START fron here */
+
+.section-review {
+  max-width: 1140px;
+  margin: 134px auto;
+}
+
+.section-review h3 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+  color: var(--primary-black);
+  margin-bottom: 50px;
+}
+
+.review-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: var(--white);
+  padding: 24px;
+  width: 100%;
+  border-radius: 14px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 3px;
+}
+
+.review-card .rating-star {
+  margin-bottom: 24px;
+}
+
+.review-card h4 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--primary-black);
+}
+
+.review-card p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 16px;
+  margin: 8px 0 24px;
+  color: var(--primary-black);
+}
+
+.review-card .reviewer-details {
+  display: flex;
+  align-items: center;
+
+}
+
+.review-card .reviewer-details img {
+  max-width: 40px;
+  border-radius: 50px;
+}
+
+.review-card .reviewer-details .reviewer-name {
+  margin-left: 12px;
+}
+
+.review-card .reviewer-details .reviewer-name h5,
+.review-card .reviewer-details .reviewer-name p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--secondary-black);
+  margin: 0;
+  padding: 0;
+}
+
+.review-card .reviewer-details .reviewer-name p {
+  color: var(--secondary-black-light);
+  font-weight: 500;
+}
+
+/* Review Section END fron here */
