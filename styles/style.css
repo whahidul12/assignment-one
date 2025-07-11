@@ -40,12 +40,13 @@ body {
 .custom-btn:hover {
   background-color: var(--star-yellow);
   color: var(--primary-black);
+  border-radius: 0px;
   scale: 1.1;
 }
 
 .custom-btn:active {
-  border-radius: 0px;
   scale: 1;
+  border-radius: 10px;
 }
 
 /* Custom Template END from here */
@@ -294,3 +295,63 @@ body {
 }
 
 /* Focus Section END fron here */
+
+/* News Letter Section START fron here */
+.section-newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 130px auto 70px;
+}
+
+.section-newsletter h2 {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 97px;
+  width: 50%;
+}
+
+.section-newsletter form label {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--primary-black);
+  display: block;
+}
+
+.section-newsletter form input,
+.section-newsletter form textarea {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+  border: 0.1px solid var(--secondary-black-light);
+  padding: 20px 32px;
+  margin: 10px 0 19px;
+  border-radius: 10px;
+}
+
+.section-newsletter form input[type="submit"] {
+  border: none;
+}
+
+.section-newsletter form textarea {
+  height: 125px;
+  resize: none;
+}
+
+.section-newsletter form input::placeholder,
+.section-newsletter form textarea::placeholder {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-black);
+
+}
+
+/* News Letter Section END fron here */
